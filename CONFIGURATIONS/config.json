@@ -1,0 +1,24 @@
+{
+    "CONFIGURATION": {
+        "LENGUAGE_REGION": "en-US",
+        "TITLE": "Aphid v1.0",
+        "DOMAIN": "luis-pineda.com",
+        "FOLDER": "/aphid",
+        "FAVICON": "aphid.svg",
+        "LOGO": "aphid.svg",
+        "CONTACT_EMAIL": "",
+        "SOCIAL":{
+            "INSTAGRAM": "https://www.instagram.com/luispinedare",
+            "TWITTER": "https://twitter.com/luispinedar",
+            "GITHUB": "https://github.com/luispinedare/aphid"
+            }
+    },
+    "MAIL_CONFIGURATION": {
+        "mail_subject": "You've got mail from your website",
+        "not_name": "Please insert your name.",
+        "not_mail": "Please insert your e-mail.",
+        "not_valid_mail": "Please insert a valid e-mail.",
+        "not_message": "Please insert your message.",
+        "sent_mail": "Message sent successfully"
+    }
+}

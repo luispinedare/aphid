@@ -1,0 +1,24 @@
+{
+    "METADATA": {
+        "SUB_TITLE": "",
+        "DESCRIPTION": "Ideal for Bussines Web Pages, Blogging and Portfolios",
+        "CSS": "style_b.css",
+        "TEMPLATE": "template_b.php",
+        "SIDEBAR": true
+    },
+    "BODY": {
+        "CLASS": "bg-layout",
+        "ROOT": [
+            {
+                "TAG": "h1",
+                "CLASS": "my-3",
+                "CONTENT": "Aphid is ideal for you"
+            },
+            {
+                "TAG": "p",
+                "CLASS": "text-justify two-columns mx-2",
+                "CONTENT": "If you have a growing business and you need a fast, simple, easily customizable and reliable system for your webpage. If you are an artist, photographer or designer who needs to display your portfolio distinctively.<br> Or if you are building a more complex platform to work with costumers and products using different database solutions. You may think on Aphid to help build your web services, platform, blog or application."
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "METADATA": {
+        "SUB_TITLE": "",
+        "DESCRIPTION": "A Simple PHP and JSON framework for Web Page and Blogging.",
+        "META_IMAGE": "",
+        "CSS": "style_a.css",
+        "TEMPLATE": "template_a.php",
+        "SIDEBAR": false
+    },
+    "BODY": {
+        "ROOT": [
+            {
+                "TITLE": "APHID is simple,",
+                "LINK": "first",
+                "CONTENT": "Well, a little bit of knowladge is required, just some basic HTML and CSS. Once you build your templates, just add content by copy-pasting and editing JSON files.",
+                "STYLE": "IndianRed"
+            },
+            {
+                "TITLE": "Lightweight,",
+                "LINK": "second",
+                "CONTENT": "Weights less than 500 KB!!! Bootstrap and Jquery included.",
+                "STYLE": "PaleGreen"
+            },
+            {
+                "TITLE": "Scalable,",
+                "LINK": "third",
+                "CONTENT": "Once you get familiar, you can create more complex templates, or even add Data Bases features. There is no limit.",
+                "STYLE": "Coral"
+            },
+            {
+                "TITLE": "Ideal for Bussines Web Pages, Blogging and Portfolios.",
+                "LINK": "fourth",
+                "CONTENT": "You want to show your work and your style. this is your starting point.",
+                "STYLE": "LemonChiffon"
+            }
+        ]
+        
+    }
+}

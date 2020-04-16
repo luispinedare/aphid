@@ -1,0 +1,31 @@
+{
+    "METADATA": {
+        "SUB_TITLE": "",
+        "DESCRIPTION": "Aphid is simple",
+        "CSS": "style_b.css",
+        "META_IMAGE": "",
+        "TEMPLATE": "template_b.php",
+        "SIDEBAR": true
+    },
+    "BODY": {
+        "CLASS": "bg-layout",
+        "ROOT": [
+            {
+                "TAG": "h1",
+                "CLASS": "my-3",
+                "CONTENT": "Aphid is simple"
+            },
+            {
+                "TAG": "p",
+                "CLASS": "text-justify two-columns mx-2",
+                "CONTENT": "Aphid help you build a frame for your work. It helps you construct one simple structure over the which you can write all your content. This means that over your customize templates, you will always maintain your framework.<br>The main configuration file is the <span class='text-secondary' style='font-family: &quot;AnonymousPro&quot;, monospace;'>config.json</span>, here is an example of the file. This file is used to build the information of your website that is display in your Metadata and also is used to pipe features like the automated contact mail."
+            },
+            {
+                "TAG": "p",
+                "CLASS": "text-left p-2 small text-light bg-dark text-code",
+                "CONTENT": "&lbrace;<br>&emsp;&emsp;&quot;CONFIGURATION&quot;: &lbrace;<br>&emsp;&emsp;&emsp;&emsp;&quot;TITLE&quot;: &quot;Aphid&quot;,<br>&emsp;&emsp;&emsp;&emsp;&quot;DOMAIN&quot;: &quot;example.com&quot;,<br>&emsp;&emsp;&emsp;&emsp;&quot;FAVICON&quot;: &quot;aphid.svg&quot;,<br>&emsp;&emsp;&emsp;&emsp;&quot;LOGO&quot;: &quot;aphid.svg&quot;,<br>&emsp;&emsp;&emsp;&emsp;&quot;CONTACT_EMAIL&quot;: &quot;webmaster@example.com&quot;,<br>&emsp;&emsp;&emsp;&emsp;&quot;INSTAGRAM&quot;: &quot;https://www.instagram.com/example&quot;,<br>&emsp;&emsp;&emsp;&emsp;&quot;TWITTER&quot;: &quot;https://twitter.com/example&quot;,<br>&emsp;&emsp;&emsp;&emsp;&quot;GITHUB&quot;: &quot;https://github.com/ex/sample&quot;<br>&emsp;&emsp;&rbrace;<br>&rbrace;"
+            }
+        ]
+    }
+}
+

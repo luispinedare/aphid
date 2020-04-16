@@ -1,0 +1,245 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+body {
+  letter-spacing: 0.1rem;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #000000;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+}
+
+/*font face*/
+@font-face {
+  font-family: 'Pacifico';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+  font-display: swap;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  color: #000000;
+  text-align: center;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: opacity .25s ease, all .35s ease;
+}
+  
+a:hover {
+  color: #00000066;
+  text-decoration: none;
+}
+
+a:focus, a.focus {
+  outline: 0;
+  box-shadow: #565656;
+}
+
+a.btn{
+  background-color: transparent;
+  padding-top: 0.6rem;
+  padding-bottom: 0.4rem;
+  padding-left: 0.6rem;
+  padding-right: 0.5rem;
+  transition: opacity .25s ease, all .35s ease;
+}
+
+a.btn:hover {
+  color: #00000066;
+  background-color: #00000000;
+  text-decoration: none;
+}
+.btn {
+  color: #000000ee;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: opacity .25s ease, all .35s ease;
+}   
+
+.btn:hover {
+  color: #000000;
+  background-color: #00000011;
+  text-decoration: none;
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: #999999;
+}
+
+.header {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  left: 0px;
+  top: 0px;
+  bottom: auto;
+  padding-top: 0.65rem;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.logo{
+  object-fit: contain;
+  width: 50px;
+}
+.logo:hover{
+  transform: translateY(0px) translateX(0px) rotate(9deg);
+  transition: all .35s ease;
+}
+
+.navbar-toggler{
+  border: hidden;
+}
+
+.side-bar {
+  position: fixed;
+  z-index: 0;
+  top: 0px;
+  left: 20px;
+  height: 100%;
+}
+
+.side-bar nav {
+  position: relative;
+  height: 70%;
+  top: 100px;
+  text-align: left;
+}
+
+.side-bar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  height: 100%;
+} 
+
+.side-bar ul li {
+  display: block;
+  height: 30px;
+  position: relative;
+}
+
+.side-bar-list{
+  font-size: 0.9rem;
+  transition: all .35s ease;
+}
+
+.side-bar-list:hover{
+  transform: translateY(0px) translateX(5px) rotate(0deg);
+  transition: all .35s ease;
+}
+
+.footer {
+  position: fixed;
+  width: 100vw;
+  z-index: 1;
+  left: 0px;
+  top: auto;
+  bottom: 0px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+
+
+/* -------------------------------- 
+Media Discrimination 
+-------------------------------- */
+@media (max-width: 768px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .footer {
+    bottom: 0px;
+    padding-left: 0px;
+    padding-bottom: 0rem;
+  }
+
+  .btn-menu{
+    position: fixed;
+    left: 75px;
+    top: 35px;
+  }
+
+  .side-bar {
+    z-index: 1;
+    left: 0px;
+  }
+
+  .side-bar nav {
+    top: 75px;
+    height: auto;
+  }
+
+  .side-bar ul {
+    background-color: snow;
+    height: auto;
+    width: 75vw;
+    opacity: 0.98;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
+  .side-bar ul li {
+    height: 30px;
+    padding-left: 80px;
+  }
+}
+  
+@media (max-width: 576px) {
+  .header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .footer {
+    bottom: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+  }
+
+  .btn-menu{
+    position: fixed;
+    left: 75px;
+    top: 35px;
+  }
+
+  .side-bar {
+    z-index: 1;
+    left: 0px;
+  }
+
+  .side-bar nav {
+    top: 75px;
+    height: auto;
+  }
+
+  .side-bar ul {
+    background-color: snow;
+    height: auto;
+    width: 100vw;
+    opacity: 0.98;
+    padding-top: 0px;
+    padding-bottom: 10px;
+  }
+
+  .side-bar ul li {
+    height: 30px;
+    padding-left: 80px;
+  }
+}

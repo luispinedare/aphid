@@ -1,0 +1,25 @@
+{
+    "METADATA": {
+        "SUB_TITLE": "",
+        "DESCRIPTION": "Scalable",
+        "CSS": "style_b.css",
+        "TEMPLATE": "template_b.php",
+        "SIDEBAR": true
+    },
+    "BODY": {
+        "CLASS": "bg-layout",
+        "ROOT": [
+            {
+                "TAG": "h1",
+                "CLASS": "my-3",
+                "CONTENT": "Aphid is Scalable"
+            },
+            {
+                "TAG": "p",
+                "CLASS": "text-justify two-columns mx-2",
+                "CONTENT": "Developed in PHP 7.3, integrates Bootstrap v4.3.1 and jQuery v3.4.1 by default. It uses JSON documents for filling the contents on the framework. All of this tools make it very simple to amplifay in size and complexity. You could use stright fordward a SQL or MongoDB data base for filling the content in to the templates. Aphid is an excelente starting point for making a more complex system"
+            }
+        ]
+
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "METADATA": {
+        "SUB_TITLE": "",
+        "DESCRIPTION": "Lightweight",
+        "CSS": "style_b.css",
+        "TEMPLATE": "template_b.php",
+        "SIDEBAR": true
+    },
+    "BODY": {
+        "CLASS": "bg-layout",
+        "ROOT": [
+            {
+                "TAG": "h1",
+                "CLASS": "my-3",
+                "CONTENT": "Aphid is Lightweight"
+            },
+            {
+                "TAG": "p",
+                "CLASS": "text-justify two-columns mx-2",
+                "CONTENT": "With Lightweightedness comes speed, Aphid tries to avoid redundancies by addressing the different configurations files with your contents on your requests. When you grow your content, you can always rely on that the structure of your site will keep just right.<br>According to the Google Lighthouse, Aphid is ranking 100/100 in all its parameters, meaning an excellence on Performance, Accessibility, Best Practices and SEO, ensuring the best possible code, to start designing your website."
+            },
+            {
+                "TAG": "img",
+                "CLASS":"img-fluid",
+                "LINK": "https://www.google.com",
+                "ALT": "lighthouse",
+                "SRC": "https://www.tallerpineda.cl/aphid/img/lighthouse.png"
+            }
+        ]
+    }
+}

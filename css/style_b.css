@@ -1,0 +1,44 @@
+.bg-layout{
+	background-color: snow;
+}
+
+p.two-columns {
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+	-moz-column-count: 2; /* Firefox */
+	column-count: 2;
+  	-webkit-column-gap: 20px; /* Chrome, Safari, Opera */ 
+	-moz-column-gap: 20px; /* Firefox */
+	column-gap: 20px;
+	column-rule-color: #ccc; /* Optional */
+	column-rule-style:solid; /* Optional */
+	column-rule-width: 1px; /* Optional */
+	text-align: justify; /* Optional */
+}
+
+
+
+/* MEDIA */
+@media(max-width: 768px) {
+	.header {
+		background-color: snow;
+	}
+	.footer {
+		position: relative;
+	  	background-color: snow;
+	}
+}
+
+@media (max-width: 576px) {
+	.header {
+	  background-color: snow;
+	}
+	.footer {
+		position: relative;
+		background-color: snow;
+	}
+	p.two-columns {
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+		-moz-column-count: 1; /* Firefox */
+		column-count: 1;
+	}
+}
